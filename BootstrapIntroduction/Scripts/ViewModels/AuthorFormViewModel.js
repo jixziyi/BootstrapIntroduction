@@ -44,3 +44,4 @@
         $('body').prepend('<div class="alert alert-danger"><strong>Error!</strong> There was an error saving the author.</div>');
     }
 }
+
