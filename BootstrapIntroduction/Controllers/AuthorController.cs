@@ -8,6 +8,7 @@ using System.Web;
 using System.Web.Mvc;
 using BootstrapIntroduction.Models;
 using BootstrapIntroduction.DAL;
+using System.Net;
 
 namespace BootstrapIntroduction.Controllers
 {
@@ -48,7 +49,7 @@ namespace BootstrapIntroduction.Controllers
 
         public ActionResult Create()
         {
-            return View();
+            return View("Form", new Author());
         }
 
         //
@@ -71,14 +72,18 @@ namespace BootstrapIntroduction.Controllers
         //
         // GET: /Author/Edit/5
 
-        public ActionResult Edit(int id = 0)
+        public ActionResult Edit(int? id)
         {
+            if (id == null)
+            {
+                return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
+            }
             Author author = db.Authors.Find(id);
             if (author == null)
             {
                 return HttpNotFound();
             }
-            return View(author);
+            return View("Form", author);
         }
 
         //
@@ -92,9 +97,9 @@ namespace BootstrapIntroduction.Controllers
             {
                 db.Entry(author).State = EntityState.Modified;
                 db.SaveChanges();
-                return RedirectToAction("Index");
+                return new HttpStatusCodeResult(HttpStatusCode.OK);
             }
-            return View(author);
+            return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
         }
 
         //

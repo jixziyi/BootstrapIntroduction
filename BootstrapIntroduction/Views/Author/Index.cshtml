@@ -28,15 +28,15 @@
 
     <tbody data-bind="foreach: authors">
         <tr>
-            <td data-bind="text:FirstName"></td>
-            <td data-bind="text:LastName"></td>
-            <td data-bind="text:Biography"></td>
+            <td data-bind="text:firstName"></td>
+            <td data-bind="text:lastName"></td>
+            <td data-bind="text:biography"></td>
             <td>
-                <a data-bind="attr: { href: '@Url.Action("Details")/' + Id }"
+                <a data-bind="attr: { href: '@Url.Action("Details")/' + id }"
                    class="btn btn-info">Details</a>
-                <a data-bind="attr: { href: '@Url.Action("Edit")/' + Id }"
+                <a data-bind="attr: { href: '@Url.Action("Edit")/' + id }"
                    class="btn btn-primary">Edit</a>
-                <a data-bind="attr: { href: '@Url.Action("Delete")/' + Id }"
+                <a data-bind="attr: { href: '@Url.Action("Delete")/' + id }"
                    class="btn btn-danger">Delete</a>
             </td>
         </tr>
