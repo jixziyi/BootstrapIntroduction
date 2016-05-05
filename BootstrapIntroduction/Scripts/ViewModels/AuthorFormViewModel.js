@@ -6,8 +6,8 @@
 
     self.author = {
         firstName: ko.observable(),
-        lastName: ko.observable(author.lastName),
-        biography: "111"
+        lastName: ko.observable(),
+        biography: ko.observable()
     };
 
     self.validateAndSave = function (form) {
