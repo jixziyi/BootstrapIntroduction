@@ -9,6 +9,7 @@ using System.Web.Mvc;
 using BootstrapIntroduction.Models;
 using BootstrapIntroduction.DAL;
 using System.Net;
+using BootstrapIntroduction.ViewModels;
 
 namespace BootstrapIntroduction.Controllers
 {
@@ -28,7 +29,10 @@ namespace BootstrapIntroduction.Controllers
             Take(queryOptions.PageSize);
             queryOptions.TotalPages = (int) Math.Ceiling((double)db.Authors.Count() / queryOptions.PageSize);
             ViewBag.QueryOptions = queryOptions;
-            return View(authors.ToList());
+
+            AutoMapper.Mapper.CreateMap<Author, AuthorViewModel>();
+
+            return View(AutoMapper.Mapper.Map<List<Author>, List<AuthorViewModel>>(authors.ToList()));
         }
 
         //

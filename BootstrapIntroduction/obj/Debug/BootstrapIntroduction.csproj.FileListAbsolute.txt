@@ -214,3 +214,6 @@ C:\Users\Administrator\Source\Repos\BootstrapIntroduction\BootstrapIntroduction\
 C:\Users\Administrator\Source\Repos\BootstrapIntroduction\BootstrapIntroduction\obj\Debug\BootstrapIntroduction.csprojResolveAssemblyReference.cache
 C:\Users\Administrator\Source\Repos\BootstrapIntroduction\BootstrapIntroduction\obj\Debug\BootstrapIntroduction.dll
 C:\Users\Administrator\Source\Repos\BootstrapIntroduction\BootstrapIntroduction\obj\Debug\BootstrapIntroduction.pdb
+C:\Users\Administrator\Source\Repos\BootstrapIntroduction\BootstrapIntroduction\bin\AutoMapper.Net4.dll
+C:\Users\Administrator\Source\Repos\BootstrapIntroduction\BootstrapIntroduction\bin\AutoMapper.dll
+C:\Users\Administrator\Source\Repos\BootstrapIntroduction\BootstrapIntroduction\bin\AutoMapper.xml
