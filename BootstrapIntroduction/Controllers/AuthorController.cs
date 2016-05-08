@@ -53,7 +53,7 @@ namespace BootstrapIntroduction.Controllers
 
         public ActionResult Create()
         {
-            return View("Form", new Author());
+            return View("Form", new AuthorViewModel());
         }
 
         //
@@ -61,11 +61,12 @@ namespace BootstrapIntroduction.Controllers
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create(Author author)
+        public ActionResult Create(AuthorViewModel author)
         {
             if (ModelState.IsValid)
             {
-                db.Authors.Add(author);
+                AutoMapper.Mapper.CreateMap<Author, AuthorViewModel>();
+                db.Authors.Add(AutoMapper.Mapper.Map<AuthorViewModel, Author>(author));
                 db.SaveChanges();
                 return RedirectToAction("Index");
             }
@@ -87,7 +88,9 @@ namespace BootstrapIntroduction.Controllers
             {
                 return HttpNotFound();
             }
-            return View("Form", author);
+
+            AutoMapper.Mapper.CreateMap<Author, AuthorViewModel>();
+            return View("Form", AutoMapper.Mapper.Map<Author, AuthorViewModel>(author));
         }
 
         //
@@ -95,11 +98,12 @@ namespace BootstrapIntroduction.Controllers
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit(Author author)
+        public ActionResult Edit(AuthorViewModel author)
         {
             if (ModelState.IsValid)
             {
-                db.Entry(author).State = EntityState.Modified;
+                AutoMapper.Mapper.CreateMap<AuthorViewModel, Author>();
+                db.Entry(AutoMapper.Mapper.Map<AuthorViewModel, Author>(author)).State = EntityState.Modified;
                 db.SaveChanges();
                 return new HttpStatusCodeResult(HttpStatusCode.OK);
             }
@@ -116,7 +120,8 @@ namespace BootstrapIntroduction.Controllers
             {
                 return HttpNotFound();
             }
-            return View(author);
+            AutoMapper.Mapper.CreateMap<Author, AuthorViewModel>();
+            return View(AutoMapper.Mapper.Map<Author, AuthorViewModel>(author));
         }
 
         //

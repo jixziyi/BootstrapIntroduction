@@ -1,8 +1,9 @@
-﻿@model BootstrapIntroduction.Models.Author
+﻿@using BootstrapIntroduction.ViewModels
 @using BootstrapIntroduction.Extensions
+@model AuthorViewModel
 
 @{
-    var isCreating = Model.Id == 0;
+    var isCreating = (Model.Id == 0);
     ViewBag.Title = (isCreating) ? "Create" : "Edit";
 }
 
