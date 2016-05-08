@@ -5,11 +5,11 @@
     Layout = null;
 }
 
-<div class="modal fade" id="deleteModal">
+<div class="modal fade" id="deleteModal" role="dialog">
     <div class="modal-dialog">
         <div class="modal-content">
             <button type="button" class="close" data-dissmiss="modal">
-                <span aria-hidden="true">$times;</span>
+                <span aria-hidden="true">&times;</span>
                 <span class="sr-only">Close</span>
             </button>
             <h4 class="modal-title">Author Delete Confirmation</h4>
@@ -40,29 +40,32 @@
                     </dd>
                 </dl>
             </div>
-            <div class="modal-footer">
-                @using (Html.BeginForm("Delete", "Authors", FormMethod.Post,
+        </div>
+        <div class="modal-footer">
+            @using (Html.BeginForm("Delete", "Author", FormMethod.Post,
                     new { data_bind = "submit: deleteAuthor" }))
-                {
-                    @Html.AntiForgeryToken()
+            {
+                @Html.AntiForgeryToken()
+                @*@Html.HiddenFor(model => model.Id, new { id = "id", name="id" })*@
+                @*<input type="hidden" name="id" value="2" />*@
+                <div class="form-actions text-center"
+                     data-bind="visible:!sending()">
+                    <input type="submit" value="Delete" class="btn btn-danger" />
+                    <button type="button" class="btn btn-default"
+                            data-dissmiss="modal">
+                        Close
+                    </button>
+                </div>
 
-                    <div class="form-actions no-color text-center"
-                         data-bind="visible:!sending()">
-                        <input type="submit" value="Delete" class="btn btn-danger" />
-                        <button type="button" class="btn btn-default"
-                                data-dissmiss="modal">Close</button>
+                <div class="progress" data-bind="visible:sending">
+                    <div class="progress-bar progress-bar-info progress-bar-striped active"
+                         role="progressbar" aria-valuenow="100"
+                         aria-valuemin="0" aria-valuemax="100"
+                         style="width:100%">
+                        <span class="sr-only"></span>
                     </div>
-
-                    <div class="progress" data-bind="visible:sending">
-                        <div class="progress-bar progress-bar-info progress-bar-striped active"
-                             role="progressbar" aria-valuenow="100"
-                             aria-valuemin="0" aria-valuemax="100"
-                             style="width:100%">
-                            <span class="sr-only"></span>
-                        </div>
-                    </div>
-                }
-            </div>
+                </div>
+            }
         </div>
     </div>
 </div>
