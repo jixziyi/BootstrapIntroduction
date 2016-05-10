@@ -13,9 +13,6 @@ namespace BootstrapIntroduction.Controllers
         public ActionResult Index()
         {
             ViewBag.Message = "Modify this template to jump-start your ASP.NET MVC application.";
-            BookContext bookContext = new BookContext();
-            Database.SetInitializer(new BookInitializer());
-            bookContext.Database.Initialize(true);
             return View();
         }
 

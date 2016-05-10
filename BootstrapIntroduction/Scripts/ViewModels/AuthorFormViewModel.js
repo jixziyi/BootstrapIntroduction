@@ -24,10 +24,13 @@
         self.author.__RequestVerificationToken = form[0].value;
 
         $.ajax({
-            url: (self.isCreating)?'Create':'Edit',
-            type: 'post',
-            contentType: 'application/x-www-form-urlencoded',
-            data: ko.toJS(self.author)
+            //url: (self.isCreating)?'Create':'Edit',
+            //type: 'post',
+            //contentType: 'application/x-www-form-urlencoded',
+            url: '/api/author',
+            type: (self.isCreating) ? 'post' : 'put',
+            contentType: 'application/json',
+            data: ko.toJSON(self.author)
         })
         .success(self.successfulSave)
         .error(self.errorSave)

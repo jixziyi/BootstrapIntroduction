@@ -1,9 +1,13 @@
-﻿function AuthorIndexViewModel(authors) {
+﻿function AuthorIndexViewModel(resultList) {
     var self = this;
-    self.authors = authors;
+
+    self.pagingService = new PagingService(resultList);
+
+    //self.authors = authors;
 
     self.showDeleteModal = function (data, event) {
         self.sending = ko.observable(false);
+
         $.get($(event.target).attr('href'), function (d) {
             $(body).prepend(d);
             $('#deleteModal').modal('show');
