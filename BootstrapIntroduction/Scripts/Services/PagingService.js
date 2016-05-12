@@ -26,7 +26,10 @@
     self.updateResultList(resultList);
 
     self.sortEntitiesBy = function (data, event) {
+
+        console.log(self.queryOptions.sortField());
         var sortField = $(event.target).data('sortField');
+        console.log(self.queryOptions.sortOrder());
 
         if (sortField == self.queryOptions.sortField() &&
                 self.queryOptions.sortOrder() == "ASC") {
@@ -35,7 +38,7 @@
         else {
             self.queryOptions.sortOrder("ASC");
         }
-
+        console.log(self.queryOptions);
         self.queryOptions.sortField(sortField);
         self.queryOptions.currentPage(1);
 
@@ -46,6 +49,13 @@
         if (self.queryOptions.currentPage() > 1) {
             self.queryOptions.currentPage(self.queryOptions.currentPage() - 1);
 
+            self.fetchEntities(event);
+        }
+    };
+
+    self.nextPage = function (data, event) {
+        if (self.queryOptions.currentPage() < self.queryOptions.totalPage()) {
+            self.queryOptions.currentPage(self.queryOptions.currentPage() + 1);
             self.fetchEntities(event);
         }
     };

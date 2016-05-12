@@ -10,6 +10,7 @@ using BootstrapIntroduction.Models;
 using BootstrapIntroduction.DAL;
 using System.Net;
 using BootstrapIntroduction.ViewModels;
+using BootstrapIntroduction.Filters;
 
 namespace BootstrapIntroduction.Controllers
 {
@@ -20,6 +21,7 @@ namespace BootstrapIntroduction.Controllers
         //
         // GET: /Author/
 
+        [GenerateResultListFilterAttribute(typeof(Author), typeof(AuthorViewModel))]
         public ActionResult Index(QueryOptions queryOptions)
         {
             var start = (queryOptions.CurrentPage - 1) * queryOptions.PageSize;
@@ -32,14 +34,16 @@ namespace BootstrapIntroduction.Controllers
             queryOptions.TotalPages = (int) Math.Ceiling((double)db.Authors.Count() / queryOptions.PageSize);
             ViewBag.QueryOptions = queryOptions;
 
-            AutoMapper.Mapper.CreateMap<Author, AuthorViewModel>();
+            //AutoMapper.Mapper.CreateMap<Author, AuthorViewModel>();
 
-            return View(
-                new ResultList<AuthorViewModel>
-                {
-                    QueryOptions = queryOptions,
-                    Results = AutoMapper.Mapper.Map<List<Author>, List<AuthorViewModel>>(authors.ToList())
-                });                
+            //return View(
+            //    new ResultList<AuthorViewModel>
+            //    {
+            //        QueryOptions = queryOptions,
+            //        Results = AutoMapper.Mapper.Map<List<Author>, List<AuthorViewModel>>(authors.ToList())
+            //    });                
+
+            return View(authors.ToList());
         }
 
         //
