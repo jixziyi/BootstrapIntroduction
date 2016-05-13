@@ -64,7 +64,7 @@ namespace BootstrapIntroduction.Controllers.Api
 
             AutoMapper.Mapper.CreateMap<AuthorViewModel, Author>();
             db.Entry(AutoMapper.Mapper.Map<AuthorViewModel, Author>(author)).State
-                = System.Data.EntityState.Modified;
+                = System.Data.Entity.EntityState.Modified;
             db.SaveChanges();
 
             return StatusCode(HttpStatusCode.NoContent);

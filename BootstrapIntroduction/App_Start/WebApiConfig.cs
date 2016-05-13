@@ -11,6 +11,7 @@ namespace BootstrapIntroduction
         public static void Register(HttpConfiguration config)
         {
             config.Filters.Add(new ValidationActionFilterAttribute());
+            config.Filters.Add(new OnApiExceptionAttribute());
 
             config.MapHttpAttributeRoutes();
 

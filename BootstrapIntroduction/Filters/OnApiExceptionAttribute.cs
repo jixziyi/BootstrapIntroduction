@@ -30,10 +30,11 @@ namespace BootstrapIntroduction.Filters
                     break;
             }
 
-            actionExecutedContext.Response = new HttpResponseMessage(returnData.HttpStatusCode){
+            actionExecutedContext.Response = new HttpResponseMessage(returnData.HttpStatusCode)
+            {
                 Content = new StringContent(returnData.Content),
                 ReasonPhrase = returnData.ReasonPhrase
-            }
+            };
         }
     }
 }

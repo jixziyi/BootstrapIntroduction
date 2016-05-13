@@ -49,14 +49,24 @@ namespace BootstrapIntroduction.Controllers
         //
         // GET: /Author/Details/5
 
-        public ActionResult Details(int id = 0)
+        public ActionResult Details(int? id)
         {
+            if (id == null)
+            {
+                return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
+            }
+
             Author author = db.Authors.Find(id);
             if (author == null)
             {
-                return HttpNotFound();
+                //return HttpNotFound();
+                throw new System.Data.Entity.Core.ObjectNotFoundException
+                (string.Format("Unable to find author with id {0}", id));
             }
-            return View(author);
+
+            AutoMapper.Mapper.CreateMap<Author, AuthorViewModel>();
+
+            return View(AutoMapper.Mapper.Map<Author, AuthorViewModel>(author));
         }
 
         //

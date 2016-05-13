@@ -209,3 +209,6 @@ C:\Users\Administrator\Source\Repos\BootstrapIntroduction\BootstrapIntroduction\
 C:\Users\Administrator\Source\Repos\BootstrapIntroduction\BootstrapIntroduction\obj\Debug\BootstrapIntroduction.pdb
 C:\Users\Administrator\Source\Repos\BootstrapIntroduction\BootstrapIntroduction\bin\AutoMapper.dll
 C:\Users\Administrator\Source\Repos\BootstrapIntroduction\BootstrapIntroduction\bin\AutoMapper.xml
+C:\Users\Administrator\Source\Repos\BootstrapIntroduction\BootstrapIntroduction\bin\EntityFramework.SqlServer.dll
+C:\Users\Administrator\Source\Repos\BootstrapIntroduction\BootstrapIntroduction\bin\EntityFramework.SqlServer.xml
+C:\Users\Administrator\Source\Repos\BootstrapIntroduction\BootstrapIntroduction\bin\zh-Hans\EntityFramework.SqlServer.resources.dll

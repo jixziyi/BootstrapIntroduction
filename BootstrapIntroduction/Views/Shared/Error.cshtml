@@ -1,4 +1,4 @@
-﻿@model System.Web.Mvc.HandleErrorInfo
+﻿@model string
 
 @{
     ViewBag.Title = "错误";
@@ -7,4 +7,5 @@
 <hgroup class="title">
     <h1 class="error">错误。</h1>
     <h2 class="error">处理你的请求时出错。</h2>
+    <p>@Model</p>
 </hgroup>
