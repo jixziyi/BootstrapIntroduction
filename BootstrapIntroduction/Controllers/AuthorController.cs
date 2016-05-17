@@ -21,7 +21,7 @@ namespace BootstrapIntroduction.Controllers
 
         //
         // GET: /Author/
-
+        [BasicAuthorization]
         [GenerateResultListFilterAttribute(typeof(Author), typeof(AuthorViewModel))]
         public ActionResult Index([Form]QueryOptions queryOptions)
         {
@@ -52,6 +52,7 @@ namespace BootstrapIntroduction.Controllers
         //
         // GET: /Author/Details/5
 
+        [BasicAuthorization]
         public ActionResult Details(int? id)
         {
             if (id == null)
@@ -74,7 +75,6 @@ namespace BootstrapIntroduction.Controllers
 
         //
         // GET: /Author/Create
-
         public ActionResult Create()
         {
             return View("Form", new AuthorViewModel());
@@ -82,7 +82,6 @@ namespace BootstrapIntroduction.Controllers
 
         //
         // POST: /Author/Create
-
         [HttpPost]
         [ValidateAntiForgeryToken]
         public ActionResult Create(AuthorViewModel author)

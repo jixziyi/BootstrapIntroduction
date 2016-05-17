@@ -224,6 +224,7 @@
     <Compile Include="DAL\BookInitializer.cs" />
     <Compile Include="Extensions\HtmlHelperExtensions.cs" />
     <Compile Include="Filters\BasicAuthentcationAttribute.cs" />
+    <Compile Include="Filters\BasicAuthorizationAttribute.cs" />
     <Compile Include="Filters\GenerateResultListFilterAttribute.cs" />
     <Compile Include="Filters\InitializeSimpleMembershipAttribute.cs" />
     <Compile Include="Filters\OnApiExceptionAttribute.cs" />
