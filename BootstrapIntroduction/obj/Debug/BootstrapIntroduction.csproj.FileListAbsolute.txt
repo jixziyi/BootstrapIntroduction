@@ -1,29 +1,25 @@
-G:\Visual Studio\BootstrapIntroduction\BootstrapIntroduction\obj\Debug\BootstrapIntroduction.csprojResolveAssemblyReference.cache
 G:\Visual Studio\BootstrapIntroduction\BootstrapIntroduction\bin\BootstrapIntroduction.dll.config
 G:\Visual Studio\BootstrapIntroduction\BootstrapIntroduction\bin\BootstrapIntroduction.dll
 G:\Visual Studio\BootstrapIntroduction\BootstrapIntroduction\bin\BootstrapIntroduction.pdb
 G:\Visual Studio\BootstrapIntroduction\BootstrapIntroduction\bin\Antlr3.Runtime.dll
-G:\Visual Studio\BootstrapIntroduction\BootstrapIntroduction\bin\DotNetOpenAuth.AspNet.dll
-G:\Visual Studio\BootstrapIntroduction\BootstrapIntroduction\bin\DotNetOpenAuth.Core.dll
-G:\Visual Studio\BootstrapIntroduction\BootstrapIntroduction\bin\DotNetOpenAuth.OAuth.Consumer.dll
-G:\Visual Studio\BootstrapIntroduction\BootstrapIntroduction\bin\DotNetOpenAuth.OAuth.dll
-G:\Visual Studio\BootstrapIntroduction\BootstrapIntroduction\bin\DotNetOpenAuth.OpenId.dll
-G:\Visual Studio\BootstrapIntroduction\BootstrapIntroduction\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
 G:\Visual Studio\BootstrapIntroduction\BootstrapIntroduction\bin\EntityFramework.dll
-G:\Visual Studio\BootstrapIntroduction\BootstrapIntroduction\bin\Microsoft.Data.Edm.dll
-G:\Visual Studio\BootstrapIntroduction\BootstrapIntroduction\bin\Microsoft.Data.OData.dll
+G:\Visual Studio\BootstrapIntroduction\BootstrapIntroduction\bin\EntityFramework.SqlServer.dll
+G:\Visual Studio\BootstrapIntroduction\BootstrapIntroduction\bin\Microsoft.AspNet.Identity.Core.dll
+G:\Visual Studio\BootstrapIntroduction\BootstrapIntroduction\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+G:\Visual Studio\BootstrapIntroduction\BootstrapIntroduction\bin\Microsoft.AspNet.Identity.Owin.dll
+G:\Visual Studio\BootstrapIntroduction\BootstrapIntroduction\bin\Microsoft.Owin.dll
+G:\Visual Studio\BootstrapIntroduction\BootstrapIntroduction\bin\Microsoft.Owin.Host.SystemWeb.dll
+G:\Visual Studio\BootstrapIntroduction\BootstrapIntroduction\bin\Microsoft.Owin.Security.Cookies.dll
+G:\Visual Studio\BootstrapIntroduction\BootstrapIntroduction\bin\Microsoft.Owin.Security.dll
+G:\Visual Studio\BootstrapIntroduction\BootstrapIntroduction\bin\Microsoft.Owin.Security.Facebook.dll
+G:\Visual Studio\BootstrapIntroduction\BootstrapIntroduction\bin\Microsoft.Owin.Security.Google.dll
+G:\Visual Studio\BootstrapIntroduction\BootstrapIntroduction\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+G:\Visual Studio\BootstrapIntroduction\BootstrapIntroduction\bin\Microsoft.Owin.Security.OAuth.dll
+G:\Visual Studio\BootstrapIntroduction\BootstrapIntroduction\bin\Microsoft.Owin.Security.Twitter.dll
 G:\Visual Studio\BootstrapIntroduction\BootstrapIntroduction\bin\Microsoft.Web.Infrastructure.dll
-G:\Visual Studio\BootstrapIntroduction\BootstrapIntroduction\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
-G:\Visual Studio\BootstrapIntroduction\BootstrapIntroduction\bin\Microsoft.Web.WebPages.OAuth.dll
 G:\Visual Studio\BootstrapIntroduction\BootstrapIntroduction\bin\Newtonsoft.Json.dll
-G:\Visual Studio\BootstrapIntroduction\BootstrapIntroduction\bin\System.Net.Http.dll
-G:\Visual Studio\BootstrapIntroduction\BootstrapIntroduction\bin\System.Net.Http.Formatting.dll
-G:\Visual Studio\BootstrapIntroduction\BootstrapIntroduction\bin\System.Net.Http.WebRequest.dll
-G:\Visual Studio\BootstrapIntroduction\BootstrapIntroduction\bin\System.Spatial.dll
+G:\Visual Studio\BootstrapIntroduction\BootstrapIntroduction\bin\Owin.dll
 G:\Visual Studio\BootstrapIntroduction\BootstrapIntroduction\bin\System.Web.Helpers.dll
-G:\Visual Studio\BootstrapIntroduction\BootstrapIntroduction\bin\System.Web.Http.dll
-G:\Visual Studio\BootstrapIntroduction\BootstrapIntroduction\bin\System.Web.Http.OData.dll
-G:\Visual Studio\BootstrapIntroduction\BootstrapIntroduction\bin\System.Web.Http.WebHost.dll
 G:\Visual Studio\BootstrapIntroduction\BootstrapIntroduction\bin\System.Web.Mvc.dll
 G:\Visual Studio\BootstrapIntroduction\BootstrapIntroduction\bin\System.Web.Optimization.dll
 G:\Visual Studio\BootstrapIntroduction\BootstrapIntroduction\bin\System.Web.Razor.dll
@@ -31,184 +27,84 @@ G:\Visual Studio\BootstrapIntroduction\BootstrapIntroduction\bin\System.Web.WebP
 G:\Visual Studio\BootstrapIntroduction\BootstrapIntroduction\bin\System.Web.WebPages.dll
 G:\Visual Studio\BootstrapIntroduction\BootstrapIntroduction\bin\System.Web.WebPages.Razor.dll
 G:\Visual Studio\BootstrapIntroduction\BootstrapIntroduction\bin\WebGrease.dll
-G:\Visual Studio\BootstrapIntroduction\BootstrapIntroduction\bin\WebMatrix.Data.dll
-G:\Visual Studio\BootstrapIntroduction\BootstrapIntroduction\bin\WebMatrix.WebData.dll
-G:\Visual Studio\BootstrapIntroduction\BootstrapIntroduction\bin\EntityFramework.xml
-G:\Visual Studio\BootstrapIntroduction\BootstrapIntroduction\bin\Newtonsoft.Json.xml
-G:\Visual Studio\BootstrapIntroduction\BootstrapIntroduction\bin\System.Net.Http.xml
-G:\Visual Studio\BootstrapIntroduction\BootstrapIntroduction\bin\System.Net.Http.Formatting.xml
-G:\Visual Studio\BootstrapIntroduction\BootstrapIntroduction\bin\System.Net.Http.WebRequest.xml
 G:\Visual Studio\BootstrapIntroduction\BootstrapIntroduction\bin\System.Web.Helpers.xml
-G:\Visual Studio\BootstrapIntroduction\BootstrapIntroduction\bin\System.Web.Http.xml
-G:\Visual Studio\BootstrapIntroduction\BootstrapIntroduction\bin\System.Web.Http.WebHost.xml
 G:\Visual Studio\BootstrapIntroduction\BootstrapIntroduction\bin\System.Web.Mvc.xml
+G:\Visual Studio\BootstrapIntroduction\BootstrapIntroduction\bin\System.Web.Optimization.xml
 G:\Visual Studio\BootstrapIntroduction\BootstrapIntroduction\bin\System.Web.Razor.xml
 G:\Visual Studio\BootstrapIntroduction\BootstrapIntroduction\bin\System.Web.WebPages.xml
 G:\Visual Studio\BootstrapIntroduction\BootstrapIntroduction\bin\System.Web.WebPages.Deployment.xml
 G:\Visual Studio\BootstrapIntroduction\BootstrapIntroduction\bin\System.Web.WebPages.Razor.xml
-G:\Visual Studio\BootstrapIntroduction\BootstrapIntroduction\bin\WebMatrix.Data.xml
-G:\Visual Studio\BootstrapIntroduction\BootstrapIntroduction\bin\Microsoft.Web.WebPages.OAuth.xml
-G:\Visual Studio\BootstrapIntroduction\BootstrapIntroduction\bin\WebMatrix.WebData.xml
-G:\Visual Studio\BootstrapIntroduction\BootstrapIntroduction\bin\DotNetOpenAuth.AspNet.xml
-G:\Visual Studio\BootstrapIntroduction\BootstrapIntroduction\bin\DotNetOpenAuth.Core.xml
-G:\Visual Studio\BootstrapIntroduction\BootstrapIntroduction\bin\DotNetOpenAuth.OAuth.Consumer.xml
-G:\Visual Studio\BootstrapIntroduction\BootstrapIntroduction\bin\DotNetOpenAuth.OAuth.xml
-G:\Visual Studio\BootstrapIntroduction\BootstrapIntroduction\bin\DotNetOpenAuth.OpenId.xml
-G:\Visual Studio\BootstrapIntroduction\BootstrapIntroduction\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
-G:\Visual Studio\BootstrapIntroduction\BootstrapIntroduction\bin\System.Web.Http.OData.xml
-G:\Visual Studio\BootstrapIntroduction\BootstrapIntroduction\bin\Microsoft.Data.Edm.xml
-G:\Visual Studio\BootstrapIntroduction\BootstrapIntroduction\bin\Microsoft.Data.OData.xml
-G:\Visual Studio\BootstrapIntroduction\BootstrapIntroduction\bin\System.Spatial.xml
-G:\Visual Studio\BootstrapIntroduction\BootstrapIntroduction\bin\zh-Hans\EntityFramework.resources.dll
-G:\Visual Studio\BootstrapIntroduction\BootstrapIntroduction\bin\zh-Hans\System.Net.Http.resources.dll
-G:\Visual Studio\BootstrapIntroduction\BootstrapIntroduction\bin\zh-Hans\System.Net.Http.Formatting.resources.dll
-G:\Visual Studio\BootstrapIntroduction\BootstrapIntroduction\bin\zh-Hans\System.Net.Http.WebRequest.resources.dll
+G:\Visual Studio\BootstrapIntroduction\BootstrapIntroduction\bin\Antlr3.Runtime.pdb
+G:\Visual Studio\BootstrapIntroduction\BootstrapIntroduction\bin\Newtonsoft.Json.xml
+G:\Visual Studio\BootstrapIntroduction\BootstrapIntroduction\bin\EntityFramework.xml
+G:\Visual Studio\BootstrapIntroduction\BootstrapIntroduction\bin\EntityFramework.SqlServer.xml
+G:\Visual Studio\BootstrapIntroduction\BootstrapIntroduction\bin\Microsoft.AspNet.Identity.Core.xml
+G:\Visual Studio\BootstrapIntroduction\BootstrapIntroduction\bin\Microsoft.AspNet.Identity.Owin.xml
+G:\Visual Studio\BootstrapIntroduction\BootstrapIntroduction\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+G:\Visual Studio\BootstrapIntroduction\BootstrapIntroduction\bin\Microsoft.Owin.xml
+G:\Visual Studio\BootstrapIntroduction\BootstrapIntroduction\bin\Microsoft.Owin.Host.SystemWeb.xml
+G:\Visual Studio\BootstrapIntroduction\BootstrapIntroduction\bin\Microsoft.Owin.Security.xml
+G:\Visual Studio\BootstrapIntroduction\BootstrapIntroduction\bin\Microsoft.Owin.Security.Facebook.xml
+G:\Visual Studio\BootstrapIntroduction\BootstrapIntroduction\bin\Microsoft.Owin.Security.Cookies.xml
+G:\Visual Studio\BootstrapIntroduction\BootstrapIntroduction\bin\Microsoft.Owin.Security.OAuth.xml
+G:\Visual Studio\BootstrapIntroduction\BootstrapIntroduction\bin\Microsoft.Owin.Security.Google.xml
+G:\Visual Studio\BootstrapIntroduction\BootstrapIntroduction\bin\Microsoft.Owin.Security.Twitter.xml
+G:\Visual Studio\BootstrapIntroduction\BootstrapIntroduction\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
 G:\Visual Studio\BootstrapIntroduction\BootstrapIntroduction\bin\zh-Hans\System.Web.Helpers.resources.dll
-G:\Visual Studio\BootstrapIntroduction\BootstrapIntroduction\bin\zh-Hans\System.Web.Http.resources.dll
-G:\Visual Studio\BootstrapIntroduction\BootstrapIntroduction\bin\zh-Hans\System.Web.Http.WebHost.resources.dll
 G:\Visual Studio\BootstrapIntroduction\BootstrapIntroduction\bin\zh-Hans\System.Web.Mvc.resources.dll
 G:\Visual Studio\BootstrapIntroduction\BootstrapIntroduction\bin\zh-Hans\System.Web.Optimization.resources.dll
 G:\Visual Studio\BootstrapIntroduction\BootstrapIntroduction\bin\zh-Hans\System.Web.Razor.resources.dll
 G:\Visual Studio\BootstrapIntroduction\BootstrapIntroduction\bin\zh-Hans\System.Web.WebPages.resources.dll
 G:\Visual Studio\BootstrapIntroduction\BootstrapIntroduction\bin\zh-Hans\System.Web.WebPages.Deployment.resources.dll
 G:\Visual Studio\BootstrapIntroduction\BootstrapIntroduction\bin\zh-Hans\System.Web.WebPages.Razor.resources.dll
-G:\Visual Studio\BootstrapIntroduction\BootstrapIntroduction\bin\zh-Hans\WebMatrix.Data.resources.dll
-G:\Visual Studio\BootstrapIntroduction\BootstrapIntroduction\bin\zh-Hans\Microsoft.Web.WebPages.OAuth.resources.dll
-G:\Visual Studio\BootstrapIntroduction\BootstrapIntroduction\bin\zh-Hans\WebMatrix.WebData.resources.dll
-G:\Visual Studio\BootstrapIntroduction\BootstrapIntroduction\bin\zh-Hans\System.Web.Http.OData.resources.dll
-G:\Visual Studio\BootstrapIntroduction\BootstrapIntroduction\bin\de\Microsoft.Data.Edm.resources.dll
-G:\Visual Studio\BootstrapIntroduction\BootstrapIntroduction\bin\es\Microsoft.Data.Edm.resources.dll
-G:\Visual Studio\BootstrapIntroduction\BootstrapIntroduction\bin\fr\Microsoft.Data.Edm.resources.dll
-G:\Visual Studio\BootstrapIntroduction\BootstrapIntroduction\bin\it\Microsoft.Data.Edm.resources.dll
-G:\Visual Studio\BootstrapIntroduction\BootstrapIntroduction\bin\ja\Microsoft.Data.Edm.resources.dll
-G:\Visual Studio\BootstrapIntroduction\BootstrapIntroduction\bin\ko\Microsoft.Data.Edm.resources.dll
-G:\Visual Studio\BootstrapIntroduction\BootstrapIntroduction\bin\ru\Microsoft.Data.Edm.resources.dll
-G:\Visual Studio\BootstrapIntroduction\BootstrapIntroduction\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
-G:\Visual Studio\BootstrapIntroduction\BootstrapIntroduction\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
-G:\Visual Studio\BootstrapIntroduction\BootstrapIntroduction\bin\de\Microsoft.Data.OData.resources.dll
-G:\Visual Studio\BootstrapIntroduction\BootstrapIntroduction\bin\es\Microsoft.Data.OData.resources.dll
-G:\Visual Studio\BootstrapIntroduction\BootstrapIntroduction\bin\fr\Microsoft.Data.OData.resources.dll
-G:\Visual Studio\BootstrapIntroduction\BootstrapIntroduction\bin\it\Microsoft.Data.OData.resources.dll
-G:\Visual Studio\BootstrapIntroduction\BootstrapIntroduction\bin\ja\Microsoft.Data.OData.resources.dll
-G:\Visual Studio\BootstrapIntroduction\BootstrapIntroduction\bin\ko\Microsoft.Data.OData.resources.dll
-G:\Visual Studio\BootstrapIntroduction\BootstrapIntroduction\bin\ru\Microsoft.Data.OData.resources.dll
-G:\Visual Studio\BootstrapIntroduction\BootstrapIntroduction\bin\zh-Hans\Microsoft.Data.OData.resources.dll
-G:\Visual Studio\BootstrapIntroduction\BootstrapIntroduction\bin\zh-Hant\Microsoft.Data.OData.resources.dll
-G:\Visual Studio\BootstrapIntroduction\BootstrapIntroduction\bin\de\System.Spatial.resources.dll
-G:\Visual Studio\BootstrapIntroduction\BootstrapIntroduction\bin\es\System.Spatial.resources.dll
-G:\Visual Studio\BootstrapIntroduction\BootstrapIntroduction\bin\fr\System.Spatial.resources.dll
-G:\Visual Studio\BootstrapIntroduction\BootstrapIntroduction\bin\it\System.Spatial.resources.dll
-G:\Visual Studio\BootstrapIntroduction\BootstrapIntroduction\bin\ja\System.Spatial.resources.dll
-G:\Visual Studio\BootstrapIntroduction\BootstrapIntroduction\bin\ko\System.Spatial.resources.dll
-G:\Visual Studio\BootstrapIntroduction\BootstrapIntroduction\bin\ru\System.Spatial.resources.dll
-G:\Visual Studio\BootstrapIntroduction\BootstrapIntroduction\bin\zh-Hans\System.Spatial.resources.dll
-G:\Visual Studio\BootstrapIntroduction\BootstrapIntroduction\bin\zh-Hant\System.Spatial.resources.dll
+G:\Visual Studio\BootstrapIntroduction\BootstrapIntroduction\bin\zh-Hans\EntityFramework.resources.dll
+G:\Visual Studio\BootstrapIntroduction\BootstrapIntroduction\bin\zh-Hans\EntityFramework.SqlServer.resources.dll
+G:\Visual Studio\BootstrapIntroduction\BootstrapIntroduction\bin\zh-Hans\Microsoft.AspNet.Identity.Core.resources.dll
+G:\Visual Studio\BootstrapIntroduction\BootstrapIntroduction\bin\zh-Hans\Microsoft.AspNet.Identity.Owin.resources.dll
+G:\Visual Studio\BootstrapIntroduction\BootstrapIntroduction\bin\zh-Hans\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+G:\Visual Studio\BootstrapIntroduction\BootstrapIntroduction\bin\zh-Hans\Microsoft.Owin.resources.dll
+G:\Visual Studio\BootstrapIntroduction\BootstrapIntroduction\bin\zh-Hans\Microsoft.Owin.Host.SystemWeb.resources.dll
+G:\Visual Studio\BootstrapIntroduction\BootstrapIntroduction\bin\zh-Hans\Microsoft.Owin.Security.resources.dll
+G:\Visual Studio\BootstrapIntroduction\BootstrapIntroduction\bin\zh-Hans\Microsoft.Owin.Security.Facebook.resources.dll
+G:\Visual Studio\BootstrapIntroduction\BootstrapIntroduction\bin\zh-Hans\Microsoft.Owin.Security.Google.resources.dll
+G:\Visual Studio\BootstrapIntroduction\BootstrapIntroduction\bin\zh-Hans\Microsoft.Owin.Security.Twitter.resources.dll
+G:\Visual Studio\BootstrapIntroduction\BootstrapIntroduction\bin\zh-Hans\Microsoft.Owin.Security.MicrosoftAccount.resources.dll
+G:\Visual Studio\BootstrapIntroduction\BootstrapIntroduction\obj\Debug\BootstrapIntroduction.csprojResolveAssemblyReference.cache
 G:\Visual Studio\BootstrapIntroduction\BootstrapIntroduction\obj\Debug\BootstrapIntroduction.dll
 G:\Visual Studio\BootstrapIntroduction\BootstrapIntroduction\obj\Debug\BootstrapIntroduction.pdb
+G:\Visual Studio\BootstrapIntroduction\BootstrapIntroduction\bin\AutoMapper.dll
+G:\Visual Studio\BootstrapIntroduction\BootstrapIntroduction\bin\DotNetOpenAuth.AspNet.dll
+G:\Visual Studio\BootstrapIntroduction\BootstrapIntroduction\bin\DotNetOpenAuth.Core.dll
+G:\Visual Studio\BootstrapIntroduction\BootstrapIntroduction\bin\DotNetOpenAuth.OAuth.Consumer.dll
+G:\Visual Studio\BootstrapIntroduction\BootstrapIntroduction\bin\DotNetOpenAuth.OAuth.dll
+G:\Visual Studio\BootstrapIntroduction\BootstrapIntroduction\bin\DotNetOpenAuth.OpenId.dll
+G:\Visual Studio\BootstrapIntroduction\BootstrapIntroduction\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+G:\Visual Studio\BootstrapIntroduction\BootstrapIntroduction\bin\Microsoft.Web.WebPages.OAuth.dll
 G:\Visual Studio\BootstrapIntroduction\BootstrapIntroduction\bin\System.Linq.Dynamic.dll
-C:\Users\Administrator\Source\Repos\BootstrapIntroduction\BootstrapIntroduction\bin\BootstrapIntroduction.dll.config
-C:\Users\Administrator\Source\Repos\BootstrapIntroduction\BootstrapIntroduction\bin\BootstrapIntroduction.dll
-C:\Users\Administrator\Source\Repos\BootstrapIntroduction\BootstrapIntroduction\bin\BootstrapIntroduction.pdb
-C:\Users\Administrator\Source\Repos\BootstrapIntroduction\BootstrapIntroduction\bin\Antlr3.Runtime.dll
-C:\Users\Administrator\Source\Repos\BootstrapIntroduction\BootstrapIntroduction\bin\DotNetOpenAuth.AspNet.dll
-C:\Users\Administrator\Source\Repos\BootstrapIntroduction\BootstrapIntroduction\bin\DotNetOpenAuth.Core.dll
-C:\Users\Administrator\Source\Repos\BootstrapIntroduction\BootstrapIntroduction\bin\DotNetOpenAuth.OAuth.Consumer.dll
-C:\Users\Administrator\Source\Repos\BootstrapIntroduction\BootstrapIntroduction\bin\DotNetOpenAuth.OAuth.dll
-C:\Users\Administrator\Source\Repos\BootstrapIntroduction\BootstrapIntroduction\bin\DotNetOpenAuth.OpenId.dll
-C:\Users\Administrator\Source\Repos\BootstrapIntroduction\BootstrapIntroduction\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
-C:\Users\Administrator\Source\Repos\BootstrapIntroduction\BootstrapIntroduction\bin\EntityFramework.dll
-C:\Users\Administrator\Source\Repos\BootstrapIntroduction\BootstrapIntroduction\bin\Microsoft.Data.Edm.dll
-C:\Users\Administrator\Source\Repos\BootstrapIntroduction\BootstrapIntroduction\bin\Microsoft.Data.OData.dll
-C:\Users\Administrator\Source\Repos\BootstrapIntroduction\BootstrapIntroduction\bin\Microsoft.Web.Infrastructure.dll
-C:\Users\Administrator\Source\Repos\BootstrapIntroduction\BootstrapIntroduction\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
-C:\Users\Administrator\Source\Repos\BootstrapIntroduction\BootstrapIntroduction\bin\Microsoft.Web.WebPages.OAuth.dll
-C:\Users\Administrator\Source\Repos\BootstrapIntroduction\BootstrapIntroduction\bin\Newtonsoft.Json.dll
-C:\Users\Administrator\Source\Repos\BootstrapIntroduction\BootstrapIntroduction\bin\System.Linq.Dynamic.dll
-C:\Users\Administrator\Source\Repos\BootstrapIntroduction\BootstrapIntroduction\bin\System.Net.Http.dll
-C:\Users\Administrator\Source\Repos\BootstrapIntroduction\BootstrapIntroduction\bin\System.Net.Http.Formatting.dll
-C:\Users\Administrator\Source\Repos\BootstrapIntroduction\BootstrapIntroduction\bin\System.Net.Http.WebRequest.dll
-C:\Users\Administrator\Source\Repos\BootstrapIntroduction\BootstrapIntroduction\bin\System.Spatial.dll
-C:\Users\Administrator\Source\Repos\BootstrapIntroduction\BootstrapIntroduction\bin\System.Web.Helpers.dll
-C:\Users\Administrator\Source\Repos\BootstrapIntroduction\BootstrapIntroduction\bin\System.Web.Http.dll
-C:\Users\Administrator\Source\Repos\BootstrapIntroduction\BootstrapIntroduction\bin\System.Web.Http.OData.dll
-C:\Users\Administrator\Source\Repos\BootstrapIntroduction\BootstrapIntroduction\bin\System.Web.Http.WebHost.dll
-C:\Users\Administrator\Source\Repos\BootstrapIntroduction\BootstrapIntroduction\bin\System.Web.Mvc.dll
-C:\Users\Administrator\Source\Repos\BootstrapIntroduction\BootstrapIntroduction\bin\System.Web.Optimization.dll
-C:\Users\Administrator\Source\Repos\BootstrapIntroduction\BootstrapIntroduction\bin\System.Web.Razor.dll
-C:\Users\Administrator\Source\Repos\BootstrapIntroduction\BootstrapIntroduction\bin\System.Web.WebPages.Deployment.dll
-C:\Users\Administrator\Source\Repos\BootstrapIntroduction\BootstrapIntroduction\bin\System.Web.WebPages.dll
-C:\Users\Administrator\Source\Repos\BootstrapIntroduction\BootstrapIntroduction\bin\System.Web.WebPages.Razor.dll
-C:\Users\Administrator\Source\Repos\BootstrapIntroduction\BootstrapIntroduction\bin\WebGrease.dll
-C:\Users\Administrator\Source\Repos\BootstrapIntroduction\BootstrapIntroduction\bin\WebMatrix.Data.dll
-C:\Users\Administrator\Source\Repos\BootstrapIntroduction\BootstrapIntroduction\bin\WebMatrix.WebData.dll
-C:\Users\Administrator\Source\Repos\BootstrapIntroduction\BootstrapIntroduction\bin\Newtonsoft.Json.xml
-C:\Users\Administrator\Source\Repos\BootstrapIntroduction\BootstrapIntroduction\bin\EntityFramework.xml
-C:\Users\Administrator\Source\Repos\BootstrapIntroduction\BootstrapIntroduction\bin\System.Net.Http.Formatting.xml
-C:\Users\Administrator\Source\Repos\BootstrapIntroduction\BootstrapIntroduction\bin\System.Web.Helpers.xml
-C:\Users\Administrator\Source\Repos\BootstrapIntroduction\BootstrapIntroduction\bin\System.Web.Http.xml
-C:\Users\Administrator\Source\Repos\BootstrapIntroduction\BootstrapIntroduction\bin\System.Web.Http.WebHost.xml
-C:\Users\Administrator\Source\Repos\BootstrapIntroduction\BootstrapIntroduction\bin\System.Web.Mvc.xml
-C:\Users\Administrator\Source\Repos\BootstrapIntroduction\BootstrapIntroduction\bin\System.Web.Razor.xml
-C:\Users\Administrator\Source\Repos\BootstrapIntroduction\BootstrapIntroduction\bin\System.Web.WebPages.xml
-C:\Users\Administrator\Source\Repos\BootstrapIntroduction\BootstrapIntroduction\bin\System.Web.WebPages.Deployment.xml
-C:\Users\Administrator\Source\Repos\BootstrapIntroduction\BootstrapIntroduction\bin\System.Web.WebPages.Razor.xml
-C:\Users\Administrator\Source\Repos\BootstrapIntroduction\BootstrapIntroduction\bin\WebMatrix.Data.xml
-C:\Users\Administrator\Source\Repos\BootstrapIntroduction\BootstrapIntroduction\bin\Microsoft.Web.WebPages.OAuth.xml
-C:\Users\Administrator\Source\Repos\BootstrapIntroduction\BootstrapIntroduction\bin\WebMatrix.WebData.xml
-C:\Users\Administrator\Source\Repos\BootstrapIntroduction\BootstrapIntroduction\bin\DotNetOpenAuth.AspNet.xml
-C:\Users\Administrator\Source\Repos\BootstrapIntroduction\BootstrapIntroduction\bin\DotNetOpenAuth.Core.xml
-C:\Users\Administrator\Source\Repos\BootstrapIntroduction\BootstrapIntroduction\bin\DotNetOpenAuth.OAuth.Consumer.xml
-C:\Users\Administrator\Source\Repos\BootstrapIntroduction\BootstrapIntroduction\bin\DotNetOpenAuth.OAuth.xml
-C:\Users\Administrator\Source\Repos\BootstrapIntroduction\BootstrapIntroduction\bin\DotNetOpenAuth.OpenId.xml
-C:\Users\Administrator\Source\Repos\BootstrapIntroduction\BootstrapIntroduction\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
-C:\Users\Administrator\Source\Repos\BootstrapIntroduction\BootstrapIntroduction\bin\System.Web.Http.OData.xml
-C:\Users\Administrator\Source\Repos\BootstrapIntroduction\BootstrapIntroduction\bin\Microsoft.Data.Edm.xml
-C:\Users\Administrator\Source\Repos\BootstrapIntroduction\BootstrapIntroduction\bin\Microsoft.Data.OData.xml
-C:\Users\Administrator\Source\Repos\BootstrapIntroduction\BootstrapIntroduction\bin\System.Spatial.xml
-C:\Users\Administrator\Source\Repos\BootstrapIntroduction\BootstrapIntroduction\bin\zh-Hans\EntityFramework.resources.dll
-C:\Users\Administrator\Source\Repos\BootstrapIntroduction\BootstrapIntroduction\bin\zh-Hans\System.Web.Helpers.resources.dll
-C:\Users\Administrator\Source\Repos\BootstrapIntroduction\BootstrapIntroduction\bin\zh-Hans\System.Web.Mvc.resources.dll
-C:\Users\Administrator\Source\Repos\BootstrapIntroduction\BootstrapIntroduction\bin\zh-Hans\System.Web.Optimization.resources.dll
-C:\Users\Administrator\Source\Repos\BootstrapIntroduction\BootstrapIntroduction\bin\zh-Hans\System.Web.Razor.resources.dll
-C:\Users\Administrator\Source\Repos\BootstrapIntroduction\BootstrapIntroduction\bin\zh-Hans\System.Web.WebPages.resources.dll
-C:\Users\Administrator\Source\Repos\BootstrapIntroduction\BootstrapIntroduction\bin\zh-Hans\System.Web.WebPages.Deployment.resources.dll
-C:\Users\Administrator\Source\Repos\BootstrapIntroduction\BootstrapIntroduction\bin\zh-Hans\System.Web.WebPages.Razor.resources.dll
-C:\Users\Administrator\Source\Repos\BootstrapIntroduction\BootstrapIntroduction\bin\zh-Hans\WebMatrix.Data.resources.dll
-C:\Users\Administrator\Source\Repos\BootstrapIntroduction\BootstrapIntroduction\bin\zh-Hans\Microsoft.Web.WebPages.OAuth.resources.dll
-C:\Users\Administrator\Source\Repos\BootstrapIntroduction\BootstrapIntroduction\bin\zh-Hans\WebMatrix.WebData.resources.dll
-C:\Users\Administrator\Source\Repos\BootstrapIntroduction\BootstrapIntroduction\bin\zh-Hans\System.Web.Http.OData.resources.dll
-C:\Users\Administrator\Source\Repos\BootstrapIntroduction\BootstrapIntroduction\bin\de\Microsoft.Data.Edm.resources.dll
-C:\Users\Administrator\Source\Repos\BootstrapIntroduction\BootstrapIntroduction\bin\es\Microsoft.Data.Edm.resources.dll
-C:\Users\Administrator\Source\Repos\BootstrapIntroduction\BootstrapIntroduction\bin\fr\Microsoft.Data.Edm.resources.dll
-C:\Users\Administrator\Source\Repos\BootstrapIntroduction\BootstrapIntroduction\bin\it\Microsoft.Data.Edm.resources.dll
-C:\Users\Administrator\Source\Repos\BootstrapIntroduction\BootstrapIntroduction\bin\ja\Microsoft.Data.Edm.resources.dll
-C:\Users\Administrator\Source\Repos\BootstrapIntroduction\BootstrapIntroduction\bin\ko\Microsoft.Data.Edm.resources.dll
-C:\Users\Administrator\Source\Repos\BootstrapIntroduction\BootstrapIntroduction\bin\ru\Microsoft.Data.Edm.resources.dll
-C:\Users\Administrator\Source\Repos\BootstrapIntroduction\BootstrapIntroduction\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
-C:\Users\Administrator\Source\Repos\BootstrapIntroduction\BootstrapIntroduction\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
-C:\Users\Administrator\Source\Repos\BootstrapIntroduction\BootstrapIntroduction\bin\de\Microsoft.Data.OData.resources.dll
-C:\Users\Administrator\Source\Repos\BootstrapIntroduction\BootstrapIntroduction\bin\es\Microsoft.Data.OData.resources.dll
-C:\Users\Administrator\Source\Repos\BootstrapIntroduction\BootstrapIntroduction\bin\fr\Microsoft.Data.OData.resources.dll
-C:\Users\Administrator\Source\Repos\BootstrapIntroduction\BootstrapIntroduction\bin\it\Microsoft.Data.OData.resources.dll
-C:\Users\Administrator\Source\Repos\BootstrapIntroduction\BootstrapIntroduction\bin\ja\Microsoft.Data.OData.resources.dll
-C:\Users\Administrator\Source\Repos\BootstrapIntroduction\BootstrapIntroduction\bin\ko\Microsoft.Data.OData.resources.dll
-C:\Users\Administrator\Source\Repos\BootstrapIntroduction\BootstrapIntroduction\bin\ru\Microsoft.Data.OData.resources.dll
-C:\Users\Administrator\Source\Repos\BootstrapIntroduction\BootstrapIntroduction\bin\zh-Hans\Microsoft.Data.OData.resources.dll
-C:\Users\Administrator\Source\Repos\BootstrapIntroduction\BootstrapIntroduction\bin\zh-Hant\Microsoft.Data.OData.resources.dll
-C:\Users\Administrator\Source\Repos\BootstrapIntroduction\BootstrapIntroduction\bin\de\System.Spatial.resources.dll
-C:\Users\Administrator\Source\Repos\BootstrapIntroduction\BootstrapIntroduction\bin\es\System.Spatial.resources.dll
-C:\Users\Administrator\Source\Repos\BootstrapIntroduction\BootstrapIntroduction\bin\fr\System.Spatial.resources.dll
-C:\Users\Administrator\Source\Repos\BootstrapIntroduction\BootstrapIntroduction\bin\it\System.Spatial.resources.dll
-C:\Users\Administrator\Source\Repos\BootstrapIntroduction\BootstrapIntroduction\bin\ja\System.Spatial.resources.dll
-C:\Users\Administrator\Source\Repos\BootstrapIntroduction\BootstrapIntroduction\bin\ko\System.Spatial.resources.dll
-C:\Users\Administrator\Source\Repos\BootstrapIntroduction\BootstrapIntroduction\bin\ru\System.Spatial.resources.dll
-C:\Users\Administrator\Source\Repos\BootstrapIntroduction\BootstrapIntroduction\bin\zh-Hans\System.Spatial.resources.dll
-C:\Users\Administrator\Source\Repos\BootstrapIntroduction\BootstrapIntroduction\bin\zh-Hant\System.Spatial.resources.dll
-C:\Users\Administrator\Source\Repos\BootstrapIntroduction\BootstrapIntroduction\obj\Debug\BootstrapIntroduction.csprojResolveAssemblyReference.cache
-C:\Users\Administrator\Source\Repos\BootstrapIntroduction\BootstrapIntroduction\obj\Debug\BootstrapIntroduction.dll
-C:\Users\Administrator\Source\Repos\BootstrapIntroduction\BootstrapIntroduction\obj\Debug\BootstrapIntroduction.pdb
-C:\Users\Administrator\Source\Repos\BootstrapIntroduction\BootstrapIntroduction\bin\AutoMapper.dll
-C:\Users\Administrator\Source\Repos\BootstrapIntroduction\BootstrapIntroduction\bin\AutoMapper.xml
-C:\Users\Administrator\Source\Repos\BootstrapIntroduction\BootstrapIntroduction\bin\EntityFramework.SqlServer.dll
-C:\Users\Administrator\Source\Repos\BootstrapIntroduction\BootstrapIntroduction\bin\EntityFramework.SqlServer.xml
-C:\Users\Administrator\Source\Repos\BootstrapIntroduction\BootstrapIntroduction\bin\zh-Hans\EntityFramework.SqlServer.resources.dll
+G:\Visual Studio\BootstrapIntroduction\BootstrapIntroduction\bin\System.Net.Http.Extensions.dll
+G:\Visual Studio\BootstrapIntroduction\BootstrapIntroduction\bin\System.Net.Http.Formatting.dll
+G:\Visual Studio\BootstrapIntroduction\BootstrapIntroduction\bin\System.Net.Http.Primitives.dll
+G:\Visual Studio\BootstrapIntroduction\BootstrapIntroduction\bin\System.Web.Http.dll
+G:\Visual Studio\BootstrapIntroduction\BootstrapIntroduction\bin\System.Web.Http.WebHost.dll
+G:\Visual Studio\BootstrapIntroduction\BootstrapIntroduction\bin\WebMatrix.Data.dll
+G:\Visual Studio\BootstrapIntroduction\BootstrapIntroduction\bin\WebMatrix.WebData.dll
+G:\Visual Studio\BootstrapIntroduction\BootstrapIntroduction\bin\Org.Mentalis.Security.Cryptography.dll
+G:\Visual Studio\BootstrapIntroduction\BootstrapIntroduction\bin\Mono.Math.dll
+G:\Visual Studio\BootstrapIntroduction\BootstrapIntroduction\bin\AutoMapper.xml
+G:\Visual Studio\BootstrapIntroduction\BootstrapIntroduction\bin\DotNetOpenAuth.AspNet.xml
+G:\Visual Studio\BootstrapIntroduction\BootstrapIntroduction\bin\DotNetOpenAuth.Core.xml
+G:\Visual Studio\BootstrapIntroduction\BootstrapIntroduction\bin\DotNetOpenAuth.OAuth.xml
+G:\Visual Studio\BootstrapIntroduction\BootstrapIntroduction\bin\DotNetOpenAuth.OAuth.Consumer.xml
+G:\Visual Studio\BootstrapIntroduction\BootstrapIntroduction\bin\DotNetOpenAuth.OpenId.xml
+G:\Visual Studio\BootstrapIntroduction\BootstrapIntroduction\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+G:\Visual Studio\BootstrapIntroduction\BootstrapIntroduction\bin\Microsoft.Web.WebPages.OAuth.xml
+G:\Visual Studio\BootstrapIntroduction\BootstrapIntroduction\bin\System.Net.Http.Extensions.xml
+G:\Visual Studio\BootstrapIntroduction\BootstrapIntroduction\bin\System.Net.Http.Formatting.xml
+G:\Visual Studio\BootstrapIntroduction\BootstrapIntroduction\bin\System.Net.Http.Primitives.xml
+G:\Visual Studio\BootstrapIntroduction\BootstrapIntroduction\bin\System.Web.Http.xml
+G:\Visual Studio\BootstrapIntroduction\BootstrapIntroduction\bin\System.Web.Http.WebHost.xml
+G:\Visual Studio\BootstrapIntroduction\BootstrapIntroduction\bin\WebMatrix.Data.xml
+G:\Visual Studio\BootstrapIntroduction\BootstrapIntroduction\bin\WebMatrix.WebData.xml
+G:\Visual Studio\BootstrapIntroduction\BootstrapIntroduction\bin\Org.Mentalis.Security.Cryptography.xml
+G:\Visual Studio\BootstrapIntroduction\BootstrapIntroduction\bin\Mono.Math.xml
+G:\Visual Studio\BootstrapIntroduction\BootstrapIntroduction\obj\Debug\BootstrapIntroduction.csproj.App.config

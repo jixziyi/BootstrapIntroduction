@@ -4,6 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Net;
 using System.Security.Principal;
+using System.Security.Claims;
 using System.Web.Mvc.Filters;
 using System.Text;
 using BootstrapIntroduction.Models;
@@ -11,9 +12,9 @@ using System.Web.Mvc;
 
 namespace BootstrapIntroduction.Filters
 {
-    public class BasicAuthentcationAttribute : ActionFilterAttribute, IAuthorizationFilter
+    public class BasicAuthenticationAttribute : ActionFilterAttribute, IAuthenticationFilter
     {
-        public void OnAuthorization(AuthorizationContext filterContext)
+        public void OnAuthentication(AuthenticationContext filterContext)
         {
             var request = filterContext.HttpContext.Request;
             var authorization = request.Headers["Authorization"];
@@ -46,7 +47,7 @@ namespace BootstrapIntroduction.Filters
                 return;
             }
 
-            filterContext.principal = new GenericPrincipal(user, user.Roles);
+            filterContext.Principal = new GenericPrincipal(user, user.Roles);
         }
 
         public void OnAuthenticationChallenge(AuthenticationChallengeContext filterContext)
