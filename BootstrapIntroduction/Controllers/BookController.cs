@@ -22,6 +22,13 @@ namespace BootstrapIntroduction.Controllers
             var books = db.Books.Include(b => b.Author);
             return View(books.ToList());
         }
+        
+        [Route("author/{id}/book")]
+        public ActionResult ByAuthor(int id)
+        {
+            var books = db.Books.Where(b => b.AuthorId == id);
+            return View(books.ToList());
+        }
 
         //
         // GET: /Book/Details/5
