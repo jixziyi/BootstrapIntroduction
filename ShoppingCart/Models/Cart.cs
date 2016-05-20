@@ -15,6 +15,6 @@ namespace ShoppingCart.Models
         [StringLength(255)]
         public string SessionId { get; set; }
 
-        public virtual ICollection<CartItem> CartItem { get; set; }
+        public virtual ICollection<CartItem> CartItems { get; set; }
     }
 }

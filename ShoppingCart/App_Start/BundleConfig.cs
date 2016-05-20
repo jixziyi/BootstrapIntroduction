@@ -33,7 +33,9 @@ namespace ShoppingCart
                 "~/Scripts/jquery-ui-{version}.js",
                 "~/Scripts/bootstrap.js",
                 "~/Scripts/respond.js",
-                "~/Scripts/knockout-{version}.js"
+                "~/Scripts/knockout-{version}.js",
+                "~/Scripts/knockout.custom.js",
+                "~/Scripts/ViewModels/CartSummaryViewModel.js"
                 ));
 
             // 将 EnableOptimizations 设为 false 以进行调试。有关详细信息，

@@ -12,6 +12,6 @@ namespace ShoppingCart.ViewModels
         public int Id { get; set; }
 
         [JsonProperty(PropertyName = "name")]
-        public string name { get; set; }
+        public string Name { get; set; }
     }
 }
